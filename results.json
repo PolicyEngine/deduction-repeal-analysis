@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "description": "10-year federal revenue scores for repealing US tax deductions (2026-2035)",
+    "model": "PolicyEngine US (Enhanced CPS)",
+    "behavioral_elasticities": {
+      "source": "CBO",
+      "labor_supply_substitution_by_decile": {
+        "primary": {"1": 0.31, "2": 0.28, "3": 0.27, "4": 0.27, "5": 0.25, "6": 0.25, "7": 0.22, "8": 0.22, "9": 0.22, "10": 0.22},
+        "secondary": 0.27
+      },
+      "labor_supply_income": -0.05,
+      "capital_gains_realization": -0.79
+    },
+    "ubi_notes": "Non-taxable, rounded to nearest $100/person/year. Budget-neutral target (UBI payout = federal revenue). Dynamic UBI iterates to account for income effect on labor supply.",
+    "generated": "2026-03-26"
+  },
+  "annual": {
+    "2026": {
+      "item_static": {"federal": 88.0, "total": 96.8},
+      "item_dynamic": {"federal": 77.7, "total": 128.2},
+      "item_static_ubi": {"federal": 88.0, "total": -5.1, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 76.0, "total": 66.3, "ubi_per_person": 300},
+      "both_static": {"federal": 446.5, "total": 466.2},
+      "both_dynamic": {"federal": 429.7, "total": 523.3},
+      "both_static_ubi": {"federal": 448.0, "total": 26.4, "ubi_per_person": 1300},
+      "both_dynamic_ubi": {"federal": 426.2, "total": 129.2, "ubi_per_person": 1300}
+    },
+    "2027": {
+      "item_static": {"federal": 92.1, "total": 101.4},
+      "item_dynamic": {"federal": 79.8, "total": 136.1},
+      "item_static_ubi": {"federal": 92.1, "total": -1.0, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 79.0, "total": 71.0, "ubi_per_person": 300},
+      "both_static": {"federal": 468.0, "total": 487.3},
+      "both_dynamic": {"federal": 445.1, "total": 566.0},
+      "both_static_ubi": {"federal": 469.5, "total": 10.9, "ubi_per_person": 1400},
+      "both_dynamic_ubi": {"federal": 443.4, "total": 130.4, "ubi_per_person": 1300}
+    },
+    "2028": {
+      "item_static": {"federal": 96.1, "total": 105.9},
+      "item_dynamic": {"federal": 87.9, "total": 127.7},
+      "item_static_ubi": {"federal": 96.1, "total": 3.0, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 88.4, "total": 58.4, "ubi_per_person": 300},
+      "both_static": {"federal": 487.3, "total": 507.3},
+      "both_dynamic": {"federal": 469.6, "total": 567.9},
+      "both_static_ubi": {"federal": 488.8, "total": 28.6, "ubi_per_person": 1400},
+      "both_dynamic_ubi": {"federal": 465.7, "total": 171.2, "ubi_per_person": 1300}
+    },
+    "2029": {
+      "item_static": {"federal": 101.5, "total": 111.8},
+      "item_dynamic": {"federal": 94.9, "total": 131.6},
+      "item_static_ubi": {"federal": 101.5, "total": 8.5, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 93.7, "total": 66.8, "ubi_per_person": 300},
+      "both_static": {"federal": 523.0, "total": 543.9},
+      "both_dynamic": {"federal": 504.0, "total": 605.1},
+      "both_static_ubi": {"federal": 524.4, "total": 28.9, "ubi_per_person": 1500},
+      "both_dynamic_ubi": {"federal": 502.1, "total": 132.0, "ubi_per_person": 1500}
+    },
+    "2030": {
+      "item_static": {"federal": 86.8, "total": 96.9},
+      "item_dynamic": {"federal": 80.1, "total": 116.7},
+      "item_static_ubi": {"federal": 86.8, "total": -6.8, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 79.3, "total": 50.7, "ubi_per_person": 300},
+      "both_static": {"federal": 665.5, "total": 687.1},
+      "both_dynamic": {"federal": 646.0, "total": 760.1},
+      "both_static_ubi": {"federal": 665.5, "total": 30.5, "ubi_per_person": 1900},
+      "both_dynamic_ubi": {"federal": 671.2, "total": 145.7, "ubi_per_person": 1900}
+    },
+    "2031": {
+      "item_static": {"federal": 78.9, "total": 87.7},
+      "item_dynamic": {"federal": 73.3, "total": 103.7},
+      "item_static_ubi": {"federal": 78.9, "total": 18.3, "ubi_per_person": 200},
+      "item_dynamic_ubi": {"federal": 73.0, "total": 35.7, "ubi_per_person": 200},
+      "both_static": {"federal": 718.8, "total": 740.3},
+      "both_dynamic": {"federal": 694.8, "total": 819.5},
+      "both_static_ubi": {"federal": 718.8, "total": 12.1, "ubi_per_person": 2100},
+      "both_dynamic_ubi": {"federal": 689.6, "total": 143.9, "ubi_per_person": 2000}
+    },
+    "2032": {
+      "item_static": {"federal": 82.5, "total": 91.8},
+      "item_dynamic": {"federal": 77.3, "total": 106.7},
+      "item_static_ubi": {"federal": 82.5, "total": 22.2, "ubi_per_person": 200},
+      "item_dynamic_ubi": {"federal": 133.6, "total": -414.9, "ubi_per_person": 300, "note": "bisection oscillated"},
+      "both_static": {"federal": 799.2, "total": 370.7},
+      "both_dynamic": {"federal": 779.8, "total": 447.4},
+      "both_static_ubi": {"federal": 799.2, "total": -429.2, "ubi_per_person": 2300},
+      "both_dynamic_ubi": {"federal": 773.9, "total": -353.9, "ubi_per_person": 2300}
+    },
+    "2033": {
+      "item_static": {"federal": 91.2, "total": 104.4},
+      "item_dynamic": {"federal": 86.2, "total": 123.7},
+      "item_static_ubi": {"federal": 91.2, "total": -0.2, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 87.2, "total": 52.7, "ubi_per_person": 300},
+      "both_static": {"federal": 770.9, "total": 797.7},
+      "both_dynamic": {"federal": 752.5, "total": 873.8},
+      "both_static_ubi": {"federal": 770.9, "total": 30.3, "ubi_per_person": 2200},
+      "both_dynamic_ubi": {"federal": 747.7, "total": 193.4, "ubi_per_person": 2100}
+    },
+    "2034": {
+      "item_static": {"federal": 95.4, "total": 109.1},
+      "item_dynamic": {"federal": 92.0, "total": 123.6},
+      "item_static_ubi": {"federal": 95.4, "total": 4.2, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 91.4, "total": 56.2, "ubi_per_person": 300},
+      "both_static": {"federal": 797.7, "total": 825.4},
+      "both_dynamic": {"federal": 776.4, "total": 914.7},
+      "both_static_ubi": {"federal": 797.7, "total": 20.9, "ubi_per_person": 2300},
+      "both_dynamic_ubi": {"federal": 769.4, "total": 169.7, "ubi_per_person": 2200}
+    },
+    "2035": {
+      "item_static": {"federal": 99.6, "total": 114.0},
+      "item_dynamic": {"federal": 94.3, "total": 135.5},
+      "item_static_ubi": {"federal": 99.6, "total": 8.8, "ubi_per_person": 300},
+      "item_dynamic_ubi": {"federal": 93.1, "total": null, "ubi_per_person": 250, "note": "estimated from bisection midpoint"},
+      "both_static": {"federal": 823.8, "total": 852.5},
+      "both_dynamic": {"federal": 797.8, "total": 955.9},
+      "both_static_ubi": {"federal": 823.8, "total": 45.8, "ubi_per_person": 2300},
+      "both_dynamic_ubi": {"federal": 790.0, "total": null, "ubi_per_person": 2200, "note": "estimated from 2034 pattern"}
+    }
+  },
+  "ten_year_totals": {
+    "item_static": {"federal": 912.1},
+    "item_dynamic": {"federal": 843.5},
+    "item_static_ubi": {"federal": 912.1, "ubi_per_person_range": "200-300"},
+    "item_dynamic_ubi": {"federal": 830, "ubi_per_person_range": "200-300", "note": "2032 and 2035 estimated"},
+    "both_static": {"federal": 6500.7},
+    "both_dynamic": {"federal": 6295.7},
+    "both_static_ubi": {"federal": 6500.7, "ubi_per_person_range": "1300-2300"},
+    "both_dynamic_ubi": {"federal": 6279, "ubi_per_person_range": "1300-2200", "note": "2035 estimated"}
+  }
+}
